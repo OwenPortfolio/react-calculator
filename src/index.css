@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#pageContainer{
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+#ButtonGrid {
+  min-width: 18rem;
+  max-width: 15rem;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#ActionGrid {
+  min-width: 5rem;
+
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#TextBox{
+  justify-content: center;
+  text-align: center;
+  margin:0px auto;
+  margin-bottom: 1rem;
+  background-color: rgb(218, 226, 233);
+  padding: 1rem;
+  border-radius: 1rem;
+  min-height: 1.75rem;
+  max-width: 20rem;
+  font-size: x-large;
+}
+
+.numberButton {
+  font-size:xx-large;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+}
+.numberButton:active{
+  background-color: red;
+}
+
+.actionButton {
+  font-size:xx-large;
+  padding:0.9rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+}
+.actionButton:active{
+  background-color: blue;
+}
