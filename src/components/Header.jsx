@@ -2,7 +2,7 @@ const Header = () => {
     return (
         <>
         <h1>Owen's Calculator</h1>
-        <h3>This is an ongoing project to make a calculator in react.</h3>
+        <h3>This is basic calculator build in Javascript and React.</h3>
         </>
     )
 }
