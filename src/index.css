@@ -22,6 +22,20 @@ h3{
   margin-left: 2rem;
   margin-right: 2rem;
 }
+
+#C{
+  width: 6.2rem;
+  background-color:red;
+}
+
+#CE{
+  background-color:orange;
+}
+
+#equals{
+  background-color: greenyellow;
+  width: 6.2rem;
+}
 #pageContainer{
   box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
   background-color: rgb(83, 212, 212);

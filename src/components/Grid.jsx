@@ -53,12 +53,12 @@ const Grid = () => {
                 <button className='actionButton' onClick={buttonPress}>-</button>
                 <button className='actionButton' onClick={buttonPress}>*</button>
                 <button className='actionButton' onClick={buttonPress}>/</button>
-                <button className='actionButton' onClick={equals}>=</button>
-                <button className='actionButton' onClick={buttonPress}>.</button>
                 <button className='actionButton' onClick={buttonPress}>(</button>
                 <button className='actionButton' onClick={buttonPress}>)</button>
-                <button className='actionButton' onClick={clearLast}>CE</button>
-                <button className='actionButton' onClick={clear}>C</button>
+                <button className='actionButton' onClick={buttonPress}>.</button>
+                <button id='CE' className='actionButton' onClick={clearLast}>CE</button>
+                <button id='C' className='actionButton' onClick={clear}>C</button>
+                <button id='equals' className='actionButton' onClick={equals}>=</button>
             </div>
             </div>
         </div>
